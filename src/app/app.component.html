@@ -1,21 +1,15 @@
 <div class="container">
-  <!-- Explanation Button with Dropdown -->
-  <div class="dropdown-container">
-    <button mat-button (click)="toggleExplanationMenu()">
-      Explanation
+  <button mat-button>
+    <div class="valign-center"><span class="valign-center">
+        Lessons
+      </span>
       <i class="material-icons">arrow_drop_down</i>
-    </button>
-    <div *ngIf="isExplanationMenuActive" class="dropdown-menu">
-      <a *ngFor="let item of menuItems" [routerLink]="item.url" class="dropdown-item">
-        {{ item.name }}
-      </a>
     </div>
-  </div>
-
-  <!-- Other Buttons -->
+  </button>
+  <button mat-button>Explanation</button>
   <button mat-button>Quiz</button>
   <button mat-button>Qloz Test</button>
   <button mat-button>Short Questions Answers</button>
-</div>
 
-<router-outlet></router-outlet>
+</div>
+<router-outlet />
