@@ -1,0 +1,108 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+  }
+  
+  .lesson-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  .lesson-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .lesson-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .lesson-header h1 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .lesson-section {
+    margin-bottom: 30px;
+  }
+  .lesson-section h2 {
+    font-size: 28px;
+    color: #2980b9;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #ecf0f1;
+    padding-bottom: 8px;
+  }
+  .lesson-section p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #4d4d4d;
+    line-height: 1.8;
+  }
+  
+  .lesson-example {
+    background-color: #ecf0f1;
+    padding: 15px 20px;
+    border-left: 5px solid #3498db;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  .lesson-example h4 {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    color: #34495e;
+  }
+  .lesson-example p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .lesson-takeaways {
+    list-style-type: disc;
+    margin: 15px 0 15px 25px;
+  }
+  .lesson-takeaways li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .lesson-section p strong {
+    color: #e74c3c;
+  }
+  
+  .lesson-section h2:hover {
+    color: #34495e;
+    cursor: pointer;
+  }
+  .lesson-section p:hover {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .lesson-container {
+      width: 95%;
+      padding: 20px;
+    }
+    .lesson-header h1 {
+      font-size: 26px;
+    }
+    .lesson-section h2 {
+      font-size: 22px;
+    }
+    .lesson-section p {
+      font-size: 16px;
+    }
+  }
+  
