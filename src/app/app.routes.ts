@@ -19,6 +19,7 @@ import { Lesson16Component } from './lesson16/lesson16.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
 
 export const routes: Routes = [
+  
   {path: 'intro', component: IntroComponent},
   {path: 'les1', component: Lesson1Component},
   {path: 'les2', component: Lesson2Component},
