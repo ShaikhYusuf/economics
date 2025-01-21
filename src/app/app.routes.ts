@@ -17,10 +17,10 @@ import { Lesson14Component } from './lesson14/lesson14.component';
 import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson16Component } from './lesson16/lesson16.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
+import { QuizComponent } from './quiz/quiz.component';
 
 export const routes: Routes = [
-  
-  {path: 'intro', component: IntroComponent},
+  {path: '', component: IntroComponent},
   {path: 'les1', component: Lesson1Component},
   {path: 'les2', component: Lesson2Component},
   {path: 'les3', component: Lesson3Component},
@@ -38,5 +38,8 @@ export const routes: Routes = [
   {path: 'les15', component: Lesson15Component},
   {path: 'les16', component: Lesson16Component},
   {path: 'les17', component: Lesson17Component},
+  { path: 'quiz/:lessonId', component: QuizComponent },
+
+  //Test ke sare component ko route karna hai....!!!
 
 ];
