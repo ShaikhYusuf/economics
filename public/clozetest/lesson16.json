@@ -1,0 +1,45 @@
+{
+    "ClozeTest": [
+      {
+        "sentence": "The economy of Usonia is faltering due to a lack of __________ in the hut-buying sector.",
+        "answer": "growth"
+      },
+      {
+        "sentence": "Senator-in-Chief Ocuda’s solution to the crisis includes expanding __________ intervention in the economy.",
+        "answer": "government"
+      },
+      {
+        "sentence": "Ocuda’s plan includes subsidies for hut buyers and __________ interest rates.",
+        "answer": "lowering"
+      },
+      {
+        "sentence": "The introduction of the 'Carp for Carts' program aims to replace old carts with more __________ ones.",
+        "answer": "fuel-efficient"
+      },
+      {
+        "sentence": "Despite the temporary __________, the government’s reforms fail to address the underlying economic issues.",
+        "answer": "recovery"
+      },
+      {
+        "sentence": "Usonia’s reliance on foreign borrowing, especially from __________, puts it at risk of an economic collapse.",
+        "answer": "Sinopia"
+      },
+      {
+        "sentence": "The Sinopian king faces a dilemma about whether to continue supporting Usonia’s __________ debt.",
+        "answer": "foreign"
+      },
+      {
+        "sentence": "The peasant in Sinopia suggests that the king should focus on __________ rather than continue foreign lending.",
+        "answer": "domestic trade"
+      },
+      {
+        "sentence": "Ocuda’s public works projects, such as the Shady Swamp lighthouse, are designed to create __________.",
+        "answer": "jobs"
+      },
+      {
+        "sentence": "Usonia’s failure to address its economic __________ makes it vulnerable to future crises.",
+        "answer": "imbalance"
+      }
+    ]
+  }
+  

@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "question": "The islanders used to collect drinking water from __________ to bring it to their huts.",
+      "options": ["a) mountain streams", "b) lakes", "c) oceans", "d) rivers"],
+      "answer": "a) mountain streams"
+    },
+    {
+      "id": 2,
+      "question": "Able Fisher V needed __________ fish to fund the Water Works project.",
+      "options": ["a) 182,500", "b) 250,000", "c) 100,000", "d) 150,000"],
+      "answer": "b) 250,000"
+    },
+    {
+      "id": 3,
+      "question": "The Tennessee Valley Authority was created to address problems such as __________, soil erosion, and lack of electricity.",
+      "options": ["a) drought", "b) flooding", "c) famine", "d) war"],
+      "answer": "b) flooding"
+    },
+    {
+      "id": 4,
+      "question": "Bongobia produced __________, while Dervishia produced plenty of tanning oil.",
+      "options": ["a) coconuts", "b) bongos", "c) fish", "d) leather"],
+      "answer": "a) coconuts"
+    },
+    {
+      "id": 5,
+      "question": "The Water Works project led to __________ farming on the island.",
+      "options": ["a) less efficient", "b) more efficient", "c) no", "d) temporary"],
+      "answer": "b) more efficient"
+    },
+    {
+      "id": 6,
+      "question": "Through trade, Bongobia and Dervishia benefited by exchanging products where each had a __________ advantage.",
+      "options": ["a) trade", "b) competitive", "c) technological", "d) political"],
+      "answer": "b) competitive"
+    },
+    {
+      "id": 7,
+      "question": "The privatization of the UK’s __________ system in the 1990s was a significant infrastructure change.",
+      "options": ["a) road", "b) train", "c) power", "d) water"],
+      "answer": "b) train"
+    },
+    {
+      "id": 8,
+      "question": "Tariffs on __________ led to higher prices for steel-based products.",
+      "options": ["a) electronics", "b) food", "c) steel", "d) oil"],
+      "answer": "c) steel"
+    },
+    {
+      "id": 9,
+      "question": "The U.S. trade deficit reflects its challenge in maintaining __________ in certain industries.",
+      "options": ["a) competitiveness", "b) balance", "c) neutrality", "d) power"],
+      "answer": "a) competitiveness"
+    },
+    {
+      "id": 10,
+      "question": "Infrastructure projects should be evaluated based on whether they __________ economic goals.",
+      "options": ["a) disrupt", "b) align with", "c) complicate", "d) ignore"],
+      "answer": "b) align with"
+    }
+  ]
+  

@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "The islanders initially formed a monarchy to resolve disputes.",
+      "Answer": "False"
+    },
+    {
+      "id": 2,
+      "question": "The senator-in-chief had executive authority in the newly formed government.",
+      "Answer": "True"
+    },
+    {
+      "id": 3,
+      "question": "The government’s primary function was to oversee private businesses and individual savings.",
+      "Answer": "False"
+    },
+    {
+      "id": 4,
+      "question": "The constitution was designed to limit government power and protect individual liberties.",
+      "Answer": "True"
+    },
+    {
+      "id": 5,
+      "question": "The formation of the Republic of Usonia mirrored the establishment of the United States.",
+      "Answer": "True"
+    },
+    {
+      "id": 6,
+      "question": "Taxes were introduced to fund military expenses, but not for infrastructure projects.",
+      "Answer": "False"
+    },
+    {
+      "id": 7,
+      "question": "The Republic of Usonia was founded as a monarchy with a central ruler.",
+      "Answer": "False"
+    },
+    {
+      "id": 8,
+      "question": "The creation of lighthouses was one of the measures taken to protect commerce.",
+      "Answer": "True"
+    },
+    {
+      "id": 9,
+      "question": "The government’s role was seen as necessary for the protection and economic stability of the island.",
+      "Answer": "True"
+    },
+    {
+      "id": 10,
+      "question": "The islanders viewed excessive taxation as a positive way to boost private savings.",
+      "Answer": "False"
+    }
+  ]
+  

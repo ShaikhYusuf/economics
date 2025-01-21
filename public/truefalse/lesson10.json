@@ -1,0 +1,25 @@
+{
+    "TrueFalse": [
+      {
+        "statement": "The government’s decision to issue Fish Reserve Notes led to balanced economic growth.",
+        "answer": "False"
+      },
+      {
+        "statement": "The Clean Rocks Jobs Program was successful in improving the economy.",
+        "answer": "False"
+      },
+      {
+        "statement": "Fishflation is caused by a decrease in the money supply.",
+        "answer": "False"
+      },
+      {
+        "statement": "The creation of the Manny Fund reflected a thriving economy.",
+        "answer": "False"
+      },
+      {
+        "statement": "The government responded to fishflation by increasing the money supply.",
+        "answer": "True"
+      }
+    ]
+  }
+  
