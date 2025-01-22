@@ -1,25 +1,52 @@
-{
-    "TrueFalse": [
-      {
-        "statement": "The government’s decision to issue Fish Reserve Notes led to balanced economic growth.",
-        "answer": "False"
-      },
-      {
-        "statement": "The Clean Rocks Jobs Program was successful in improving the economy.",
-        "answer": "False"
-      },
-      {
-        "statement": "Fishflation is caused by a decrease in the money supply.",
-        "answer": "False"
-      },
-      {
-        "statement": "The creation of the Manny Fund reflected a thriving economy.",
-        "answer": "False"
-      },
-      {
-        "statement": "The government responded to fishflation by increasing the money supply.",
-        "answer": "True"
-      }
-    ]
-  }
-  
+[
+    {
+      "id": 1,
+      "statement": "The government’s decision to issue Fish Reserve Notes led to balanced economic growth.",
+      "answer": "False"
+    },
+    {
+      "id": 2,
+      "statement": "The Clean Rocks Jobs Program was successful in improving the economy.",
+      "answer": "False"
+    },
+    {
+      "id": 3,
+      "statement": "Fishflation is caused by a decrease in the money supply.",
+      "answer": "False"
+    },
+    {
+      "id": 4,
+      "statement": "The creation of the Manny Fund reflected a thriving economy.",
+      "answer": "False"
+    },
+    {
+      "id": 5,
+      "statement": "The government responded to fishflation by increasing the money supply.",
+      "answer": "True"
+    },
+    {
+      "id": 6,
+      "statement": "The collapse of the Fish Reserve Notes in Usonia was triggered by over-issuing currency.",
+      "answer": "True"
+    },
+    {
+      "id": 7,
+      "statement": "Government interventions always lead to sustainable economic growth.",
+      "answer": "False"
+    },
+    {
+      "id": 8,
+      "statement": "Excessive borrowing without savings can destabilize an economy in the long term.",
+      "answer": "True"
+    },
+    {
+      "id": 9,
+      "statement": "Subprime mortgages were a key factor in causing the 2008 financial crisis.",
+      "answer": "True"
+    },
+    {
+      "id": 10,
+      "statement": "Speculative behavior in markets typically leads to stable and predictable economic conditions.",
+      "answer": "False"
+    }
+  ]

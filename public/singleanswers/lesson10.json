@@ -1,25 +1,52 @@
-{
-    "SingleLineAnswers": [
-      {
-        "question": "What triggered the unchecked growth of government spending in the story?",
-        "answer": "The ability of senators to issue unlimited Fish Reserve Notes."
-      },
-      {
-        "question": "What caused the inflationary pressures in the economy?",
-        "answer": "Excess money supply without corresponding growth in goods and services."
-      },
-      {
-        "question": "What did the government do to counter the rise in unemployment?",
-        "answer": "They set price controls and created more government jobs."
-      },
-      {
-        "question": "What was the Clean Rocks Jobs Program?",
-        "answer": "A government-funded initiative focused on cleaning rocks."
-      },
-      {
-        "question": "What is fishflation?",
-        "answer": "Inflation caused by an over-expansion of the money supply."
-      }
-    ]
-  }
-  
+[
+    {
+      "id": 1,
+      "question": "What triggered the unchecked growth of government spending in the story?",
+      "Answer": "The ability of senators to issue unlimited Fish Reserve Notes."
+    },
+    {
+      "id": 2,
+      "question": "What caused the inflationary pressures in the economy?",
+      "Answer": "Excess money supply without corresponding growth in goods and services."
+    },
+    {
+      "id": 3,
+      "question": "What did the government do to counter the rise in unemployment?",
+      "Answer": "They set price controls and created more government jobs."
+    },
+    {
+      "id": 4,
+      "question": "What was the Clean Rocks Jobs Program?",
+      "Answer": "A government-funded initiative focused on cleaning rocks."
+    },
+    {
+      "id": 5,
+      "question": "What is fishflation?",
+      "Answer": "Inflation caused by an over-expansion of the money supply."
+    },
+    {
+      "id": 6,
+      "question": "What happens when too much money is printed without corresponding production?",
+      "Answer": "It leads to inflation and the devaluation of currency."
+    },
+    {
+      "id": 7,
+      "question": "How did the government intervene to manage fishflation?",
+      "Answer": "By imposing price and wage controls."
+    },
+    {
+      "id": 8,
+      "question": "What is the economic impact of printing money to cover government debt?",
+      "Answer": "It leads to hyperinflation and loss of confidence in the currency."
+    },
+    {
+      "id": 9,
+      "question": "Why did the creation of more government jobs fail to solve the economic problems?",
+      "Answer": "Because it did not address the underlying issues like inflation and inefficiency."
+    },
+    {
+      "id": 10,
+      "question": "What role did political corruption play in the economic downturn?",
+      "Answer": "Corruption eroded public trust and worsened economic instability."
+    }
+  ]

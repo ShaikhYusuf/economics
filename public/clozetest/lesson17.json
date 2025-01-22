@@ -1,37 +1,36 @@
-{
-    "ClozeTests": [
+[
       {
         "sentence": "The collapse of the Fish Reserve Notes in Sinopia can be compared to the situation where a country __________ its currency beyond sustainable levels.",
-        "answer": "over-issues"
+        "Answer": "over-issues"
       },
       {
         "sentence": "Germany’s hyperinflation in the 1920s was largely caused by the country printing __________ to pay off war reparations.",
-        "answer": "money"
+        "Answer": "money"
       },
       {
         "sentence": "Zimbabwe faced __________ in the 2000s due to excessive money printing by the government.",
-        "answer": "hyperinflation"
+        "Answer": "hyperinflation"
       },
       {
         "sentence": "Argentina's recurring inflation problems were partly caused by __________ spending and printing money to cover fiscal deficits.",
-        "answer": "government"
+        "Answer": "government"
       },
       {
         "sentence": "Venezuela's economic collapse in the 2010s saw an increase in __________, with wealthy citizens and investors moving their wealth abroad.",
-        "answer": "capital flight"
+        "Answer": "capital flight"
       },
       {
         "sentence": "The U.S. faced a period of __________ in the 1970s, where inflation was high, and growth was stagnant.",
-        "answer": "stagflation"
+        "Answer": "stagflation"
       },
       {
         "sentence": "The process of asset stripping in Russia during the 1990s resulted from __________, where state-owned enterprises were sold off cheaply.",
-        "answer": "privatization"
+        "Answer": "privatization"
       },
       {
         "sentence": "The U.S. Great Depression was triggered by a __________ and a banking crisis.",
-        "answer": "stock market crash"
+        "Answer": "stock market crash"
       }
     ]
-  }
+
   

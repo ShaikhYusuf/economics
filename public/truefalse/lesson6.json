@@ -1,51 +1,51 @@
 [
     {
-      "id": 21,
+      "id":1,
       "question": "Banks in the early 19th century in the U.S. were created to handle increasing amounts of savings and prevent fraud.",
       "Answer": "True"
     },
     {
-      "id": 22,
+      "id":2,
       "question": "Peer-to-peer lending requires the intervention of traditional banks.",
       "Answer": "False"
     },
     {
-      "id": 23,
+      "id":3,
       "question": "Low interest rates in the 2000s led to a housing bubble.",
       "Answer": "True"
     },
     {
-      "id": 24,
+      "id":4,
       "question": "Warren Buffett’s investment strategy is known for being high-risk.",
       "Answer": "False"
     },
     {
-      "id": 25,
+      "id":5,
       "question": "The Federal Reserve adjusts interest rates to discourage borrowing during economic downturns.",
       "Answer": "False"
     },
     {
-      "id": 26,
+      "id":6,
       "question": "China controls its credit markets to direct lending towards specific sectors.",
       "Answer": "True"
     },
     {
-      "id": 27,
+      "id":7,
       "question": "Prolonged low interest rates encourage long-term economic stability.",
       "Answer": "False"
     },
     {
-      "id": 28,
+      "id":8,
       "question": "Max Goodbank’s cautious approach avoided risky ventures and ensured stability.",
       "Answer": "True"
     },
     {
-      "id": 29,
+      "id":9,
       "question": "The subprime mortgage crisis was caused by careful lending practices.",
       "Answer": "False"
     },
     {
-      "id": 30,
+      "id":10,
       "question": "Peer-to-peer lending platforms are part of the traditional banking system.",
       "Answer": "False"
     }

@@ -1,42 +1,52 @@
 [
-  {
-    "statement": "Able fears losing his net, which discourages him from sharing it initially.",
-    "answer": "True"
-  },
-  {
-    "statement": "Lending surplus fish does not benefit Baker and Charlie in the long term.",
-    "answer": "False"
-  },
-  {
-    "statement": "The chapter argues that wealth accumulation inherently harms others.",
-    "answer": "False"
-  },
-  {
-    "statement": "Productivity increases are essential for economic growth.",
-    "answer": "True"
-  },
-  {
-    "statement": "Redistribution without accountability may hinder progress.",
-    "answer": "True"
-  },
-  {
-    "statement": "Hoarded resources in a capitalist system gain value over time.",
-    "answer": "False"
-  },
-  {
-    "statement": "Microloans often empower small-scale farmers to improve their yield.",
-    "answer": "True"
-  },
-  {
-    "statement": "Able invests in additional nets to avoid sharing his wealth.",
-    "answer": "False"
-  },
-  {
-    "statement": "Coercive systems like slavery increase overall economic productivity.",
-    "answer": "False"
-  },
-  {
-    "statement": "Modern tech entrepreneurs contribute to economic growth by creating tools that boost productivity.",
-    "answer": "True"
-  }
-]
+    {
+      "id": 1,
+      "statement": "Able fears losing his net, which discourages him from sharing it initially.",
+      "Answer": "True"
+    },
+    {
+      "id": 2,
+      "statement": "Lending surplus fish does not benefit Baker and Charlie in the long term.",
+      "Answer": "False"
+    },
+    {
+      "id": 3,
+      "statement": "The chapter argues that wealth accumulation inherently harms others.",
+      "Answer": "False"
+    },
+    {
+      "id": 4,
+      "statement": "Productivity increases are essential for economic growth.",
+      "Answer": "True"
+    },
+    {
+      "id": 5,
+      "statement": "Redistribution without accountability may hinder progress.",
+      "Answer": "True"
+    },
+    {
+      "id": 6,
+      "statement": "Hoarded resources in a capitalist system gain value over time.",
+      "Answer": "False"
+    },
+    {
+      "id": 7,
+      "statement": "Microloans often empower small-scale farmers to improve their yield.",
+      "Answer": "True"
+    },
+    {
+      "id": 8,
+      "statement": "Able invests in additional nets to avoid sharing his wealth.",
+      "Answer": "False"
+    },
+    {
+      "id": 9,
+      "statement": "Coercive systems like slavery increase overall economic productivity.",
+      "Answer": "False"
+    },
+    {
+      "id": 10,
+      "statement": "Modern tech entrepreneurs contribute to economic growth by creating tools that boost productivity.",
+      "Answer": "True"
+    }
+  ]
