@@ -114,3 +114,83 @@ body {
     font-size: 16px;
   }
 }
+
+/* Button Styles */
+.speech-button-container {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db; /* Blue color */
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight lift effect */
+}
+
+button:active {
+  background-color: #1f618d; /* Even darker blue when pressed */
+  transform: translateY(2px); /* Slight press effect */
+}
+
+button mat-icon {
+  font-size: 24px;
+  margin-right: 8px; /* Space between icon and text */
+}
+
+/* Stop Button */
+button.stop-button {
+  background-color: #e74c3c; /* Red color for stop button */
+}
+
+button.stop-button:hover {
+  background-color: #c0392b; /* Darker red on hover */
+}
+
+button.stop-button:active {
+  background-color: #922b21; /* Even darker red when pressed */
+}
+
+/* Disabled Button */
+button:disabled {
+  background-color: #bdc3c7; /* Disabled grey color */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Focus Styling */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5); /* Focus blue shadow */
+}
+
+/* Text Styling */
+button span {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  button {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+  button mat-icon {
+    font-size: 20px;
+  }
+}

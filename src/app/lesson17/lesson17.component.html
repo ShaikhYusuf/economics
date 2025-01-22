@@ -1,86 +1,122 @@
 <div class="lesson-container">
-    <div class="lesson-header">
-        <h1>Expanded Analysis: Real-Life Lessons from Usonia's Collapse</h1>
+
+    <div class="speech-button-container">
+        <!-- Play/Pause Button -->
+        <button mat-icon-button (click)="toggleVoice()" aria-label="Toggle lesson audio">
+            <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+            {{ isPlaying ? 'Pause' : 'Play' }}
+        </button>
+
+        <!-- Stop Button -->
+        <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+            <mat-icon>stop</mat-icon>
+            Stop
+        </button>
     </div>
 
-    <div class="lesson-section">
-        <h2>The Fall of Fish Reserve Notes: Real-World Parallels</h2>
-        <p>
-            The collapse of the Fish Reserve Notes in Sinopia mirrors real-world instances of currency devaluation, hyperinflation, and economic collapse. 
-        </p>
-        <div class="lesson-example">
-            <h4>Germany (1920s - Hyperinflation)</h4>
-            <p>
-                Following World War I, Germany printed excessive amounts of money to pay reparations. Hyperinflation spiraled out of control, rendering the currency worthless. Prices doubled every few days, and citizens were forced to carry wheelbarrows of money to purchase basic goods.
-            </p>
+    <section #textDiv>
+        <div class="lesson-header">
+            <h1>Lesson 17: Expanded Analysis: Real-Life Lessons from Usonia's Collapse</h1>
         </div>
-        <div class="lesson-example">
-            <h4>Zimbabwe (2000s - Hyperinflation)</h4>
-            <p>
-                Under Robert Mugabe, excessive money printing caused inflation to reach over 89.7 sextillion percent by 2008. Savings were wiped out, and people resorted to bartering for essentials.
-            </p>
-        </div>
-        <div class="lesson-example">
-            <h4>Argentina (1980s-2000s - Currency Crises)</h4>
-            <p>
-                Argentina's excessive government spending and deficits led to recurring cycles of inflation and currency devaluation, peaking at 3,000% annual inflation in the late 1980s. Despite reforms, the country continues to struggle with economic instability.
-            </p>
-        </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>The Sinopian Shopping Spree: Asset Stripping and Capital Flight</h2>
-        <p>
-            Sinopia's acquisition of Usonian assets during the economic crisis resembles real-world examples of capital flight and asset stripping in struggling economies.
-        </p>
-        <div class="lesson-example">
-            <h4>Venezuela (2010s - Capital Flight)</h4>
+        <div class="lesson-section">
+            <h2>The Fall of Fish Reserve Notes: Real-World Parallels</h2>
             <p>
-                Venezuela's economic collapse led to massive capital flight as wealthy citizens and foreign investors moved assets abroad, depleting the country's resources and worsening the crisis.
+                The collapse of the Fish Reserve Notes in Sinopia mirrors real-world instances of currency devaluation,
+                hyperinflation, and economic collapse.
             </p>
+            <div class="lesson-example">
+                <h4>Germany (1920s - Hyperinflation)</h4>
+                <p>
+                    Following World War I, Germany printed excessive amounts of money to pay reparations. Hyperinflation
+                    spiraled out of control, rendering the currency worthless. Prices doubled every few days, and
+                    citizens were forced to carry wheelbarrows of money to purchase basic goods.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Zimbabwe (2000s - Hyperinflation)</h4>
+                <p>
+                    Under Robert Mugabe, excessive money printing caused inflation to reach over 89.7 sextillion percent
+                    by 2008. Savings were wiped out, and people resorted to bartering for essentials.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Argentina (1980s-2000s - Currency Crises)</h4>
+                <p>
+                    Argentina's excessive government spending and deficits led to recurring cycles of inflation and
+                    currency devaluation, peaking at 3,000% annual inflation in the late 1980s. Despite reforms, the
+                    country continues to struggle with economic instability.
+                </p>
+            </div>
         </div>
-        <div class="lesson-example">
-            <h4>Russia (1990s - Asset Stripping)</h4>
-            <p>
-                During privatization, Russia's state-owned enterprises were sold at low prices to oligarchs, who moved wealth abroad. This left the economy in disarray, mirroring Usonia's struggles.
-            </p>
-        </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>The Economic Collapse of Usonia: Lessons in Mismanagement</h2>
-        <p>
-            Usonia's descent into economic collapse parallels historical cases of economic mismanagement, showing the risks of unsustainable fiscal policies.
-        </p>
-        <div class="lesson-example">
-            <h4>The U.S. in the 1970s - Stagflation</h4>
+        <div class="lesson-section">
+            <h2>The Sinopian Shopping Spree: Asset Stripping and Capital Flight</h2>
             <p>
-                The U.S. faced slow growth, high inflation, and rising unemployment. Policies to stimulate the economy, combined with rising oil prices, worsened the problem, illustrating the dangers of poorly timed interventions.
+                Sinopia's acquisition of Usonian assets during the economic crisis resembles real-world examples of
+                capital flight and asset stripping in struggling economies.
+            </p>
+            <div class="lesson-example">
+                <h4>Venezuela (2010s - Capital Flight)</h4>
+                <p>
+                    Venezuela's economic collapse led to massive capital flight as wealthy citizens and foreign
+                    investors moved assets abroad, depleting the country's resources and worsening the crisis.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Russia (1990s - Asset Stripping)</h4>
+                <p>
+                    During privatization, Russia's state-owned enterprises were sold at low prices to oligarchs, who
+                    moved wealth abroad. This left the economy in disarray, mirroring Usonia's struggles.
+                </p>
+            </div>
+        </div>
+
+        <div class="lesson-section">
+            <h2>The Economic Collapse of Usonia: Lessons in Mismanagement</h2>
+            <p>
+                Usonia's descent into economic collapse parallels historical cases of economic mismanagement, showing
+                the risks of unsustainable fiscal policies.
+            </p>
+            <div class="lesson-example">
+                <h4>The U.S. in the 1970s - Stagflation</h4>
+                <p>
+                    The U.S. faced slow growth, high inflation, and rising unemployment. Policies to stimulate the
+                    economy, combined with rising oil prices, worsened the problem, illustrating the dangers of poorly
+                    timed interventions.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>The Great Depression (1930s - U.S. Economic Collapse)</h4>
+                <p>
+                    Triggered by a stock market crash and banking failures, the Great Depression led to unemployment and
+                    economic contraction. Poorly managed monetary policy exacerbated the crisis before the New Deal
+                    programs aimed to stabilize the economy.
+                </p>
+            </div>
+        </div>
+
+        <div class="lesson-section">
+            <h2>The Return to Basics: The Importance of Productive Capacity</h2>
+            <p>
+                Economic prosperity fundamentally depends on a country's ability to produce goods and services.
+                Historical examples highlight this principle:
+            </p>
+            <ul class="lesson-takeaways">
+                <li><strong>Japan’s Post-War Economic Miracle:</strong> Focused on innovation and manufacturing, Japan
+                    rebuilt its economy to become a global leader in electronics and automobiles.</li>
+                <li><strong>South Korea’s Economic Development:</strong> Investment in education, infrastructure, and
+                    industries transformed South Korea into a major industrialized nation.</li>
+            </ul>
+        </div>
+
+        <div class="lesson-section">
+            <h2>Conclusion</h2>
+            <p>
+                The collapse of Usonia highlights the dangers of unsustainable fiscal policies, inflation, and economic
+                mismanagement. Historical examples show that nations succeed when they prioritize productive capacity,
+                sound economic policies, and long-term sustainability over short-term fixes.
             </p>
         </div>
-        <div class="lesson-example">
-            <h4>The Great Depression (1930s - U.S. Economic Collapse)</h4>
-            <p>
-                Triggered by a stock market crash and banking failures, the Great Depression led to unemployment and economic contraction. Poorly managed monetary policy exacerbated the crisis before the New Deal programs aimed to stabilize the economy.
-            </p>
-        </div>
-    </div>
-
-    <div class="lesson-section">
-        <h2>The Return to Basics: The Importance of Productive Capacity</h2>
-        <p>
-            Economic prosperity fundamentally depends on a country's ability to produce goods and services. Historical examples highlight this principle:
-        </p>
-        <ul class="lesson-takeaways">
-            <li><strong>Japan’s Post-War Economic Miracle:</strong> Focused on innovation and manufacturing, Japan rebuilt its economy to become a global leader in electronics and automobiles.</li>
-            <li><strong>South Korea’s Economic Development:</strong> Investment in education, infrastructure, and industries transformed South Korea into a major industrialized nation.</li>
-        </ul>
-    </div>
-
-    <div class="lesson-section">
-        <h2>Conclusion</h2>
-        <p>
-            The collapse of Usonia highlights the dangers of unsustainable fiscal policies, inflation, and economic mismanagement. Historical examples show that nations succeed when they prioritize productive capacity, sound economic policies, and long-term sustainability over short-term fixes.
-        </p>
-    </div>
+    </section>
 </div>

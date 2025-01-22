@@ -19,6 +19,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
+
 .main-container:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
@@ -29,11 +30,13 @@ body {
   text-align: center;
   margin-bottom: 30px;
 }
+
 .chapter-header h1 {
   font-size: 32px;
   color: #2c3e50;
   margin-bottom: 10px;
 }
+
 .chapter-header .subtitle {
   font-size: 18px;
   color: #7f8c8d;
@@ -44,9 +47,11 @@ body {
 .chapter-content {
   margin-top: 20px;
 }
+
 .section {
   margin-bottom: 30px;
 }
+
 .section h2 {
   font-size: 28px;
   color: #2980b9;
@@ -54,16 +59,19 @@ body {
   border-bottom: 3px solid #ecf0f1;
   padding-bottom: 8px;
 }
+
 .section p {
   font-size: 18px;
   margin: 10px 0;
   color: #4d4d4d;
   line-height: 1.8;
 }
+
 .section ul {
   list-style-type: disc;
   margin: 15px 0 15px 25px;
 }
+
 .section li {
   font-size: 16px;
   color: #555;
@@ -83,11 +91,13 @@ body {
   border-radius: 8px;
   margin: 20px 0;
 }
+
 .example h3 {
   margin: 0 0 10px 0;
   font-size: 20px;
   color: #34495e;
 }
+
 .example p {
   font-size: 16px;
   color: #555;
@@ -99,6 +109,7 @@ body {
   padding-top: 20px;
   border-top: 2px solid #bdc3c7;
 }
+
 .footer .note {
   text-align: center;
   font-size: 15px;
@@ -111,6 +122,7 @@ body {
   color: #34495e;
   cursor: pointer;
 }
+
 .section p:hover {
   background-color: #ecf0f1;
   border-radius: 8px;
@@ -123,13 +135,108 @@ body {
     width: 95%;
     padding: 20px;
   }
+
   .chapter-header h1 {
     font-size: 26px;
   }
+
   .section h2 {
     font-size: 22px;
   }
+
   .section p {
     font-size: 16px;
+  }
+}
+
+/* Button Styles */
+.speech-button-container {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db;
+  /* Blue color */
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #2980b9;
+  /* Darker blue on hover */
+  transform: translateY(-3px);
+  /* Slight lift effect */
+}
+
+button:active {
+  background-color: #1f618d;
+  /* Even darker blue when pressed */
+  transform: translateY(2px);
+  /* Slight press effect */
+}
+
+button mat-icon {
+  font-size: 24px;
+  margin-right: 8px;
+  /* Space between icon and text */
+}
+
+/* Stop Button */
+button.stop-button {
+  background-color: #e74c3c;
+  /* Red color for stop button */
+}
+
+button.stop-button:hover {
+  background-color: #c0392b;
+  /* Darker red on hover */
+}
+
+button.stop-button:active {
+  background-color: #922b21;
+  /* Even darker red when pressed */
+}
+
+/* Disabled Button */
+button:disabled {
+  background-color: #bdc3c7;
+  /* Disabled grey color */
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* Focus Styling */
+button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.5);
+  /* Focus blue shadow */
+}
+
+/* Text Styling */
+button span {
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  button {
+    padding: 12px 15px;
+    font-size: 16px;
+  }
+
+  button mat-icon {
+    font-size: 20px;
   }
 }

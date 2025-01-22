@@ -1,65 +1,86 @@
 <div class="lesson-container">
-    <div class="lesson-header">
-        <h1>Chapter 15 Takeaway: The Consequences of Over-Extending Credit and Government Intervention</h1>
+    <div class="speech-button-container">
+        <!-- Play/Pause Button -->
+        <button mat-icon-button (click)="toggleVoice()" aria-label="Toggle lesson audio">
+            <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+            {{ isPlaying ? 'Pause' : 'Play' }}
+        </button>
+
+        <!-- Stop Button -->
+        <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+            <mat-icon>stop</mat-icon>
+            Stop
+        </button>
     </div>
 
-    <div class="lesson-section">
-        <h2>The Housing Crisis and Overextension of Credit</h2>
-        <p>
-            Real-Life Example: The U.S. Housing Crisis (2007-2008)
-        </p>
-        <div class="lesson-example">
-            <h4>What Happened:</h4>
-            <p>
-                Banks offered risky subprime mortgages to borrowers unlikely to repay, much like the Crater View Condominiums' failure in the story. 
-            </p>
-            <h4>Impact:</h4>
-            <p>
-                The bursting housing bubble caused massive losses for institutions like Bear Stearns and Lehman Brothers, leading to foreclosures, stock market crashes, and unemployment.
-            </p>
+    <section #textDiv>
+        <div class="lesson-header">
+            <h1>Lesson 15 Takeaway: The Consequences of Over-Extending Credit and Government Intervention</h1>
         </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>The "Hut Glut" Becomes a "Hut Rut"</h2>
-        <p>
-            Real-Life Example: Speculation and the Consequence of "Hoping for a Quick Sale"
-        </p>
-        <div class="lesson-example">
-            <h4>What Happened:</h4>
+        <div class="lesson-section">
+            <h2>The Housing Crisis and Overextension of Credit</h2>
             <p>
-                Investors bought homes expecting quick profits but were left with depreciating assets when the market collapsed.
+                Real-Life Example: The U.S. Housing Crisis (2007-2008)
             </p>
-            <h4>Impact:</h4>
-            <p>
-                Many homeowners defaulted on underwater mortgages, leading to economic distress.
-            </p>
+            <div class="lesson-example">
+                <h4>What Happened:</h4>
+                <p>
+                    Banks offered risky subprime mortgages to borrowers unlikely to repay, much like the Crater View
+                    Condominiums' failure in the story.
+                </p>
+                <h4>Impact:</h4>
+                <p>
+                    The bursting housing bubble caused massive losses for institutions like Bear Stearns and Lehman
+                    Brothers, leading to foreclosures, stock market crashes, and unemployment.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>The Role of Government Intervention and Bailouts</h2>
-        <p>
-            Real-Life Example: The U.S. Government’s Bailout of Financial Institutions (2008)
-        </p>
-        <div class="lesson-example">
-            <h4>What Happened:</h4>
+        <div class="lesson-section">
+            <h2>The "Hut Glut" Becomes a "Hut Rut"</h2>
             <p>
-                The government injected capital into banks during the 2008 financial crisis to prevent a system-wide collapse.
+                Real-Life Example: Speculation and the Consequence of "Hoping for a Quick Sale"
             </p>
-            <h4>Impact:</h4>
-            <p>
-                While stabilizing the economy temporarily, critics argue these bailouts rewarded failed institutions.
-            </p>
+            <div class="lesson-example">
+                <h4>What Happened:</h4>
+                <p>
+                    Investors bought homes expecting quick profits but were left with depreciating assets when the
+                    market collapsed.
+                </p>
+                <h4>Impact:</h4>
+                <p>
+                    Many homeowners defaulted on underwater mortgages, leading to economic distress.
+                </p>
+            </div>
         </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>Takeaways</h2>
-        <ul class="lesson-takeaways">
-            <li>Easy credit and speculative behavior can lead to catastrophic economic consequences.</li>
-            <li>Government bailouts may stabilize markets temporarily but fail to address systemic issues.</li>
-            <li>Artificially propping up asset prices often delays necessary market corrections.</li>
-        </ul>
-    </div>
+        <div class="lesson-section">
+            <h2>The Role of Government Intervention and Bailouts</h2>
+            <p>
+                Real-Life Example: The U.S. Government’s Bailout of Financial Institutions (2008)
+            </p>
+            <div class="lesson-example">
+                <h4>What Happened:</h4>
+                <p>
+                    The government injected capital into banks during the 2008 financial crisis to prevent a system-wide
+                    collapse.
+                </p>
+                <h4>Impact:</h4>
+                <p>
+                    While stabilizing the economy temporarily, critics argue these bailouts rewarded failed
+                    institutions.
+                </p>
+            </div>
+        </div>
+
+        <div class="lesson-section">
+            <h2>Takeaways</h2>
+            <ul class="lesson-takeaways">
+                <li>Easy credit and speculative behavior can lead to catastrophic economic consequences.</li>
+                <li>Government bailouts may stabilize markets temporarily but fail to address systemic issues.</li>
+                <li>Artificially propping up asset prices often delays necessary market corrections.</li>
+            </ul>
+        </div>
+    </section>
 </div>

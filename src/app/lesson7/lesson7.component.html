@@ -1,69 +1,96 @@
 <div class="chapter-container">
-    <h1 class="chapter-title">CHAPTER 7: Infrastructure and Trade</h1>
+  <div class="speech-button-container">
+    <!-- Play/Pause Button -->
+    <button mat-icon-button (click)="toggleVoice()" aria-label="Toggle lesson audio">
+      <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+      {{ isPlaying ? 'Pause' : 'Play' }}
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
+  </div>
+  <section #textDiv>
+    <h1 class="chapter-title">Lesson 7: Infrastructure and Trade</h1>
     <div class="section">
       <h2 class="section-title">The Importance of Infrastructure</h2>
       <p>
-        Traditionally, islanders collected drinking water from mountain streams and carried it to their huts in vessels they fashioned. This limited productivity and created challenges during droughts.
+        Traditionally, islanders collected drinking water from mountain streams and carried it to their huts in vessels
+        they fashioned. This limited productivity and created challenges during droughts.
       </p>
       <p>
-        To address this, Able Fisher V devised a system of reservoirs, funded by Maxine Goodbank, enabling efficient water storage and usage. This infrastructure transformed the island's economy by improving farming and industry.
+        To address this, Able Fisher V devised a system of reservoirs, funded by Maxine Goodbank, enabling efficient
+        water storage and usage. This infrastructure transformed the island's economy by improving farming and industry.
       </p>
       <p class="example">
         <strong>Real-Life Example: The Tennessee Valley Authority (TVA)</strong><br>
-        The TVA in the U.S., created in the 1930s, addressed flooding and lack of electricity, boosting agriculture, industry, and living standards in the Tennessee River Valley.
+        The TVA in the U.S., created in the 1930s, addressed flooding and lack of electricity, boosting agriculture,
+        industry, and living standards in the Tennessee River Valley.
       </p>
     </div>
-  
+
     <div class="section">
       <h2 class="section-title">Trade and Economic Growth</h2>
       <p>
-        Trade flourished as the island exported goods and imported necessities. This mirrored comparative advantage, where islands specialized in what they did best.
+        Trade flourished as the island exported goods and imported necessities. This mirrored comparative advantage,
+        where islands specialized in what they did best.
       </p>
       <p class="example">
         <strong>Real-Life Example: Global Trade in Electronics and Natural Resources</strong><br>
-        Nations like China and South Korea export electronics while importing raw materials, benefiting from comparative advantage and fueling economic growth.
+        Nations like China and South Korea export electronics while importing raw materials, benefiting from comparative
+        advantage and fueling economic growth.
       </p>
       <p class="example">
         <strong>Real-Life Example: Free Trade Agreements (FTA)</strong><br>
-        Agreements like NAFTA eliminated tariffs, fostering efficient trade and economic growth by focusing on each country's strengths.
+        Agreements like NAFTA eliminated tariffs, fostering efficient trade and economic growth by focusing on each
+        country's strengths.
       </p>
     </div>
-  
+
     <div class="section">
       <h2 class="section-title">Reality Check: Big vs. Little Economics</h2>
       <p>
-        Infrastructure spending can boost economies but must balance costs and benefits. Poorly planned projects waste resources and hinder growth.
+        Infrastructure spending can boost economies but must balance costs and benefits. Poorly planned projects waste
+        resources and hinder growth.
       </p>
       <p class="example">
         <strong>Real-Life Example: The "Bridge to Nowhere"</strong><br>
-        A costly and unnecessary bridge in Alaska became a symbol of wasteful government spending, highlighting the importance of productive infrastructure investments.
+        A costly and unnecessary bridge in Alaska became a symbol of wasteful government spending, highlighting the
+        importance of productive infrastructure investments.
       </p>
       <p class="example">
         <strong>Real-Life Example: The Privatization of the UK’s Rail System</strong><br>
-        The UK privatized its rail system in the 1990s, with mixed results. Private companies improved infrastructure but faced challenges in maintaining service quality.
+        The UK privatized its rail system in the 1990s, with mixed results. Private companies improved infrastructure
+        but faced challenges in maintaining service quality.
       </p>
     </div>
-  
+
     <div class="section">
       <h2 class="section-title">Protectionism vs. Free Trade</h2>
       <p>
-        Trade barriers harm consumers by limiting access to affordable goods and reducing efficiency. Nations benefit by focusing on their competitive advantages.
+        Trade barriers harm consumers by limiting access to affordable goods and reducing efficiency. Nations benefit by
+        focusing on their competitive advantages.
       </p>
       <p class="example">
         <strong>Real-Life Example: Tariffs on Steel</strong><br>
-        U.S. steel tariffs raised costs for industries reliant on steel, hurting competitiveness and consumers while protecting inefficient industries.
+        U.S. steel tariffs raised costs for industries reliant on steel, hurting competitiveness and consumers while
+        protecting inefficient industries.
       </p>
       <p class="example">
         <strong>Real-Life Example: The U.S. Trade Deficit</strong><br>
-        The U.S. struggles with a trade deficit due to challenges in manufacturing. Investing in competitive sectors can help address this imbalance.
+        The U.S. struggles with a trade deficit due to challenges in manufacturing. Investing in competitive sectors can
+        help address this imbalance.
       </p>
     </div>
-  
+
     <div class="section takeaway">
       <h2 class="section-title">Takeaway</h2>
       <p>
-        Infrastructure spending and trade policies are key to economic growth, but their success depends on careful planning and leveraging comparative advantages.
+        Infrastructure spending and trade policies are key to economic growth, but their success depends on careful
+        planning and leveraging comparative advantages.
       </p>
     </div>
-  </div>
-  
+  </section>
+</div>

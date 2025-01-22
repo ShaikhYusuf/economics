@@ -1,99 +1,146 @@
 <div class="lesson-container">
-    <div class="lesson-header">
-        <h1>Chapter 6: The Role of Banks, Credit, and Interest Rates in Economic Growth</h1>
+    <div class="speech-button-container">
+        <!-- Play/Pause Button -->
+        <button mat-icon-button (click)="toggleVoice()" aria-label="Toggle lesson audio">
+            <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+            {{ isPlaying ? 'Pause' : 'Play' }}
+        </button>
+
+        <!-- Stop Button -->
+        <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+            <mat-icon>stop</mat-icon>
+            Stop
+        </button>
     </div>
 
-    <div class="lesson-section">
-        <h2>The Problem of Savings and Theft</h2>
-        <p>
-            As the islanders accumulated more fish, storage became a logistical nightmare. Storing fish in huts was inefficient and exposed them to theft. This is analogous to how economies face problems when savings outpace the available methods for safeguarding or efficiently utilizing those savings.
-        </p>
-        <div class="lesson-example">
-            <h4>Example 1: Banking System Evolution in the U.S.</h4>
-            <p>
-                <strong>What Happened:</strong> In the early 19th century, banks were established in the U.S. to handle increasing amounts of savings and to prevent fraud. <br>
-                <strong>Impact:</strong> The creation of banks allowed for more secure storage of deposits and helped stabilize the financial system, making it easier for the economy to grow.
-            </p>
+    <section #textDiv>
+        <div class="lesson-header">
+            <h1>Lesson 6: The Role of Banks, Credit, and Interest Rates in Economic Growth</h1>
         </div>
-        <div class="lesson-example">
-            <h4>Example 2: Secure Digital Banking in the 21st Century</h4>
-            <p>
-                <strong>What Happened:</strong> The rise of digital banking has solved the problem of secure savings for millions. <br>
-                <strong>Impact:</strong> Today, digital banks ensure the safety of deposits through encryption and other security technologies, preventing theft and fraud while offering services that maximize the utility of savings.
-            </p>
-        </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>The Birth of Goodbank</h2>
-        <p>
-            Max Goodbank recognized that individuals lacked the time and expertise to judge the merits of various investments. He saw an opportunity to create a centralized institution that could safely store savings and lend money to others who needed it.
-        </p>
-        <div class="lesson-example">
-            <h4>Example 3: The Creation of Central Banks</h4>
+        <div class="lesson-section">
+            <h2>The Problem of Savings and Theft</h2>
             <p>
-                <strong>What Happened:</strong> The Bank of England was established to manage national debt and secure savings, thus contributing to the stability of the financial system. <br>
-                <strong>Impact:</strong> By centralizing banking operations, the Bank of England helped fund government projects and manage economic growth, mirroring Max Goodbank's role in organizing the island's finances.
+                As the islanders accumulated more fish, storage became a logistical nightmare. Storing fish in huts was
+                inefficient and exposed them to theft. This is analogous to how economies face problems when savings
+                outpace the available methods for safeguarding or efficiently utilizing those savings.
             </p>
+            <div class="lesson-example">
+                <h4>Example 1: Banking System Evolution in the U.S.</h4>
+                <p>
+                    <strong>What Happened:</strong> In the early 19th century, banks were established in the U.S. to
+                    handle increasing amounts of savings and to prevent fraud. <br>
+                    <strong>Impact:</strong> The creation of banks allowed for more secure storage of deposits and
+                    helped stabilize the financial system, making it easier for the economy to grow.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Example 2: Secure Digital Banking in the 21st Century</h4>
+                <p>
+                    <strong>What Happened:</strong> The rise of digital banking has solved the problem of secure savings
+                    for millions. <br>
+                    <strong>Impact:</strong> Today, digital banks ensure the safety of deposits through encryption and
+                    other security technologies, preventing theft and fraud while offering services that maximize the
+                    utility of savings.
+                </p>
+            </div>
         </div>
-        <div class="lesson-example">
-            <h4>Example 4: Peer-to-Peer Lending</h4>
-            <p>
-                <strong>What Happened:</strong> Modern peer-to-peer (P2P) lending platforms like LendingClub and Prosper have democratized lending by allowing individuals to lend money to others without the intervention of traditional banks. <br>
-                <strong>Impact:</strong> These platforms serve as an alternative to banks, facilitating loans while offering better interest rates for both borrowers and lenders.
-            </p>
-        </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>Interest Rates and the Profit Motive</h2>
-        <p>
-            Max set up his bank with an understanding of the importance of balancing the interests of borrowers and depositors. By offering loans at varying interest rates depending on the risk involved, and paying depositors interest for leaving their fish in the vault, he maximized the efficiency of capital distribution.
-        </p>
-        <div class="lesson-example">
-            <h4>Example 5: The Role of Interest Rates in the Housing Market</h4>
+        <div class="lesson-section">
+            <h2>The Birth of Goodbank</h2>
             <p>
-                <strong>What Happened:</strong> In the 2000s, low interest rates led to a housing boom as consumers could afford higher mortgages. <br>
-                <strong>Impact:</strong> While initially, this increased economic activity, it also led to the 2008 financial crisis when many borrowers defaulted, showing the dangers of too-low interest rates.
+                Max Goodbank recognized that individuals lacked the time and expertise to judge the merits of various
+                investments. He saw an opportunity to create a centralized institution that could safely store savings
+                and lend money to others who needed it.
             </p>
+            <div class="lesson-example">
+                <h4>Example 3: The Creation of Central Banks</h4>
+                <p>
+                    <strong>What Happened:</strong> The Bank of England was established to manage national debt and
+                    secure savings, thus contributing to the stability of the financial system. <br>
+                    <strong>Impact:</strong> By centralizing banking operations, the Bank of England helped fund
+                    government projects and manage economic growth, mirroring Max Goodbank's role in organizing the
+                    island's finances.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Example 4: Peer-to-Peer Lending</h4>
+                <p>
+                    <strong>What Happened:</strong> Modern peer-to-peer (P2P) lending platforms like LendingClub and
+                    Prosper have democratized lending by allowing individuals to lend money to others without the
+                    intervention of traditional banks. <br>
+                    <strong>Impact:</strong> These platforms serve as an alternative to banks, facilitating loans while
+                    offering better interest rates for both borrowers and lenders.
+                </p>
+            </div>
         </div>
-        <div class="lesson-example">
-            <h4>Example 6: Japan’s Zero Interest Rate Policy</h4>
-            <p>
-                <strong>What Happened:</strong> The Bank of Japan lowered interest rates to near zero to stimulate the economy after a long period of stagnation. <br>
-                <strong>Impact:</strong> While this policy was intended to promote borrowing and spending, it has also led to an extended period of low inflation and limited economic growth, illustrating the risks of prolonged low rates.
-            </p>
-        </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>Risk Management in Banking</h2>
-        <p>
-            Max was cautious about taking on risky loans and focused on conservative, low-risk lending. He avoided funding speculative ventures, choosing instead to lend to borrowers with solid plans. This reflects the core principle of risk management in financial institutions.
-        </p>
-        <div class="lesson-example">
-            <h4>Example 7: Warren Buffett’s Investment Strategy</h4>
+        <div class="lesson-section">
+            <h2>Interest Rates and the Profit Motive</h2>
             <p>
-                <strong>What Happened:</strong> Warren Buffett, known for his risk-averse approach, has avoided investing in speculative ventures, focusing instead on businesses with stable earnings and predictable growth. <br>
-                <strong>Impact:</strong> His philosophy has led to consistent long-term growth in his company, Berkshire Hathaway, proving that careful risk management leads to sustained prosperity.
+                Max set up his bank with an understanding of the importance of balancing the interests of borrowers and
+                depositors. By offering loans at varying interest rates depending on the risk involved, and paying
+                depositors interest for leaving their fish in the vault, he maximized the efficiency of capital
+                distribution.
             </p>
+            <div class="lesson-example">
+                <h4>Example 5: The Role of Interest Rates in the Housing Market</h4>
+                <p>
+                    <strong>What Happened:</strong> In the 2000s, low interest rates led to a housing boom as consumers
+                    could afford higher mortgages. <br>
+                    <strong>Impact:</strong> While initially, this increased economic activity, it also led to the 2008
+                    financial crisis when many borrowers defaulted, showing the dangers of too-low interest rates.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Example 6: Japan’s Zero Interest Rate Policy</h4>
+                <p>
+                    <strong>What Happened:</strong> The Bank of Japan lowered interest rates to near zero to stimulate
+                    the economy after a long period of stagnation. <br>
+                    <strong>Impact:</strong> While this policy was intended to promote borrowing and spending, it has
+                    also led to an extended period of low inflation and limited economic growth, illustrating the risks
+                    of prolonged low rates.
+                </p>
+            </div>
         </div>
-        <div class="lesson-example">
-            <h4>Example 8: Subprime Mortgage Crisis</h4>
-            <p>
-                <strong>What Happened:</strong> Banks and financial institutions took on high-risk subprime mortgages, lending to borrowers with poor credit histories. <br>
-                <strong>Impact:</strong> The crisis showed how reckless lending practices can lead to widespread economic damage, making a case for Max's cautious approach to lending.
-            </p>
-        </div>
-    </div>
 
-    <div class="lesson-section">
-        <h2>Takeaways</h2>
-        <ul class="lesson-takeaways">
-            <li>The importance of sound banking systems for safe storage, wise lending, and efficient savings management.</li>
-            <li>Interest rates as a market stabilizer, affecting savings, loans, and investments.</li>
-            <li>The role of government in financial markets, balancing stability and market efficiency.</li>
-            <li>Risk and reward in investments, emphasizing careful evaluation for sustained economic growth.</li>
-        </ul>
-    </div>
+        <div class="lesson-section">
+            <h2>Risk Management in Banking</h2>
+            <p>
+                Max was cautious about taking on risky loans and focused on conservative, low-risk lending. He avoided
+                funding speculative ventures, choosing instead to lend to borrowers with solid plans. This reflects the
+                core principle of risk management in financial institutions.
+            </p>
+            <div class="lesson-example">
+                <h4>Example 7: Warren Buffett’s Investment Strategy</h4>
+                <p>
+                    <strong>What Happened:</strong> Warren Buffett, known for his risk-averse approach, has avoided
+                    investing in speculative ventures, focusing instead on businesses with stable earnings and
+                    predictable growth. <br>
+                    <strong>Impact:</strong> His philosophy has led to consistent long-term growth in his company,
+                    Berkshire Hathaway, proving that careful risk management leads to sustained prosperity.
+                </p>
+            </div>
+            <div class="lesson-example">
+                <h4>Example 8: Subprime Mortgage Crisis</h4>
+                <p>
+                    <strong>What Happened:</strong> Banks and financial institutions took on high-risk subprime
+                    mortgages, lending to borrowers with poor credit histories. <br>
+                    <strong>Impact:</strong> The crisis showed how reckless lending practices can lead to widespread
+                    economic damage, making a case for Max's cautious approach to lending.
+                </p>
+            </div>
+        </div>
+
+        <div class="lesson-section">
+            <h2>Takeaways</h2>
+            <ul class="lesson-takeaways">
+                <li>The importance of sound banking systems for safe storage, wise lending, and efficient savings
+                    management.</li>
+                <li>Interest rates as a market stabilizer, affecting savings, loans, and investments.</li>
+                <li>The role of government in financial markets, balancing stability and market efficiency.</li>
+                <li>Risk and reward in investments, emphasizing careful evaluation for sustained economic growth.</li>
+            </ul>
+        </div>
+    </section>
 </div>

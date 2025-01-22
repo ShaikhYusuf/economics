@@ -1,106 +1,148 @@
 <div class="main-container">
-  <div class="chapter-header">
-    <h1>Chapter 2: Sharing the Wealth</h1>
+  <div class="speech-button-container">
+    <!-- Play/Pause Button -->
+    <button mat-icon-button (click)="toggleVoice()" aria-label="Toggle lesson audio">
+      <mat-icon>{{ isPlaying ? 'pause' : 'play_arrow' }}</mat-icon>
+      {{ isPlaying ? 'Pause' : 'Play' }}
+    </button>
+
+    <!-- Stop Button -->
+    <button mat-icon-button (click)="stopVoice()" aria-label="Stop lesson audio">
+      <mat-icon>stop</mat-icon>
+      Stop
+    </button>
   </div>
-  <div class="chapter-content">
-    <div class="section">
-      <h2>Self-Interest and Capitalism</h2>
-      <p>
-        Able is an entrepreneur who innovates by creating a new fishing net, allowing him to catch more fish. However, his primary motivation is self-interest—he wants to catch more fish for himself. Although Able doesn’t intend to directly benefit others, his invention inadvertently helps the entire island economy grow.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
-        <p>
-          <strong>Steve Jobs and Apple:</strong> Steve Jobs, the co-founder of Apple, was driven by a desire to create innovative products like the iPhone, iPad, and MacBook. While Jobs’ goal was to make Apple successful (self-interest), his innovations created jobs for millions of people around the world and increased productivity in many sectors. This is similar to Able’s actions—his success benefited others, even though his intention was to benefit himself.
-        </p>
-      </div>
+  <section #textDiv>
+    <div class="chapter-header">
+      <h1>Lesson 2: Sharing the Wealth</h1>
     </div>
+    <div class="chapter-content">
+      <div class="section">
+        <h2>Self-Interest and Capitalism</h2>
+        <p>
+          Able is an entrepreneur who innovates by creating a new fishing net, allowing him to catch more fish. However,
+          his primary motivation is self-interest—he wants to catch more fish for himself. Although Able doesn’t intend
+          to directly benefit others, his invention inadvertently helps the entire island economy grow.
+        </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Steve Jobs and Apple:</strong> Steve Jobs, the co-founder of Apple, was driven by a desire to create
+            innovative products like the iPhone, iPad, and MacBook. While Jobs’ goal was to make Apple successful
+            (self-interest), his innovations created jobs for millions of people around the world and increased
+            productivity in many sectors. This is similar to Able’s actions—his success benefited others, even though
+            his intention was to benefit himself.
+          </p>
+        </div>
+      </div>
 
-    <div class="section">
-      <h2>Risk and Reward</h2>
-      <p>
-        Able weighs various options for what to do with his surplus fish: consume them, save them, lend them, or invest them. Each choice comes with a level of risk and reward.
-      </p>
-      <ul>
-        <li>Consumption guarantees no losses but also no growth.</li>
-        <li>Saving preserves wealth but doesn’t increase it.</li>
-        <li>Lending involves risk but can provide a return if borrowers succeed.</li>
-        <li>Investment could involve building nets or other projects to increase productivity.</li>
-      </ul>
-      <p>
-        Able ultimately decides to lend the fish to Baker and Charlie at 100% interest, taking a risk but potentially earning a reward.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
+      <div class="section">
+        <h2>Risk and Reward</h2>
         <p>
-          <strong>Stock Market Investments:</strong> Investing in stocks involves risk. You could lose money if the stock price falls, but if the company performs well, the stock value increases, providing a return. The same principle applies to Able’s decision to lend his fish to Baker and Charlie with the hope of getting more in return.
+          Able weighs various options for what to do with his surplus fish: consume them, save them, lend them, or
+          invest them. Each choice comes with a level of risk and reward.
         </p>
+        <ul>
+          <li>Consumption guarantees no losses but also no growth.</li>
+          <li>Saving preserves wealth but doesn’t increase it.</li>
+          <li>Lending involves risk but can provide a return if borrowers succeed.</li>
+          <li>Investment could involve building nets or other projects to increase productivity.</li>
+        </ul>
+        <p>
+          Able ultimately decides to lend the fish to Baker and Charlie at 100% interest, taking a risk but potentially
+          earning a reward.
+        </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Stock Market Investments:</strong> Investing in stocks involves risk. You could lose money if the
+            stock price falls, but if the company performs well, the stock value increases, providing a return. The same
+            principle applies to Able’s decision to lend his fish to Baker and Charlie with the hope of getting more in
+            return.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="section">
-      <h2>Economic Growth and Production</h2>
-      <p>
-        Able’s loan enables Baker and Charlie to build their nets, increasing their fishing capacity from 3 fish per day to 5 fish per day. This increase in productivity benefits everyone on the island.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
+      <div class="section">
+        <h2>Economic Growth and Production</h2>
         <p>
-          <strong>Industrial Revolution:</strong> During the Industrial Revolution, machinery and new production techniques significantly increased productivity in industries like textiles and steel, allowing people to produce more goods and services, driving economic growth, and improving living standards.
+          Able’s loan enables Baker and Charlie to build their nets, increasing their fishing capacity from 3 fish per
+          day to 5 fish per day. This increase in productivity benefits everyone on the island.
         </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Industrial Revolution:</strong> During the Industrial Revolution, machinery and new production
+            techniques significantly increased productivity in industries like textiles and steel, allowing people to
+            produce more goods and services, driving economic growth, and improving living standards.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="section">
-      <h2>The Role of Lenders and Capital Investment</h2>
-      <p>
-        Able’s willingness to lend fish benefits both him and the island economy. In return for his loan, Able earns a 100% return, showcasing how lending and capital investment drive economic growth.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
+      <div class="section">
+        <h2>The Role of Lenders and Capital Investment</h2>
         <p>
-          <strong>Microfinance Institutions (MFIs):</strong> MFIs provide small loans to entrepreneurs in developing countries, allowing them to start small businesses. These investments lead to higher productivity and economic growth, much like Able’s loan to Baker and Charlie.
+          Able’s willingness to lend fish benefits both him and the island economy. In return for his loan, Able earns a
+          100% return, showcasing how lending and capital investment drive economic growth.
         </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Microfinance Institutions (MFIs):</strong> MFIs provide small loans to entrepreneurs in developing
+            countries, allowing them to start small businesses. These investments lead to higher productivity and
+            economic growth, much like Able’s loan to Baker and Charlie.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="section">
-      <h2>Charity vs. Business</h2>
-      <p>
-        Baker and Charlie suggest that Able should give them fish for free. Able realizes that charity might improve his popularity but won’t increase the island’s productive capacity. Lending fish, however, allows Baker and Charlie to succeed, benefiting the entire island.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
+      <div class="section">
+        <h2>Charity vs. Business</h2>
         <p>
-          <strong>Welfare Programs vs. Economic Investment:</strong> Welfare programs can alleviate poverty but don’t lead to long-term growth. Investments in education, infrastructure, and jobs create long-term benefits, similar to Able’s loan.
+          Baker and Charlie suggest that Able should give them fish for free. Able realizes that charity might improve
+          his popularity but won’t increase the island’s productive capacity. Lending fish, however, allows Baker and
+          Charlie to succeed, benefiting the entire island.
         </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Welfare Programs vs. Economic Investment:</strong> Welfare programs can alleviate poverty but don’t
+            lead to long-term growth. Investments in education, infrastructure, and jobs create long-term benefits,
+            similar to Able’s loan.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="section">
-      <h2>The Role of Risk and Profit in Economic Growth</h2>
-      <p>
-        Able’s profit comes from taking a calculated risk. If Baker and Charlie succeed, they repay him with interest. If they fail, Able bears the loss. This is a driving force behind economic growth.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
+      <div class="section">
+        <h2>The Role of Risk and Profit in Economic Growth</h2>
         <p>
-          <strong>Venture Capitalists:</strong> VCs fund startups in exchange for equity. If the startup succeeds, the VC earns significant returns; if it fails, they lose their investment. This parallels Able’s decision to lend fish.
+          Able’s profit comes from taking a calculated risk. If Baker and Charlie succeed, they repay him with interest.
+          If they fail, Able bears the loss. This is a driving force behind economic growth.
         </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Venture Capitalists:</strong> VCs fund startups in exchange for equity. If the startup succeeds, the
+            VC earns significant returns; if it fails, they lose their investment. This parallels Able’s decision to
+            lend fish.
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="section">
-      <h2>Wealth and Economic Freedom</h2>
-      <p>
-        Wealth creation requires investment and risk. If Able hoarded his fish, the island’s economy would stagnate. By lending them, he increases productivity and collective wealth.
-      </p>
-      <div class="example">
-        <h3>Real-life Example</h3>
+      <div class="section">
+        <h2>Wealth and Economic Freedom</h2>
         <p>
-          <strong>Capitalism vs. State-Controlled Economies:</strong> In capitalist economies, innovation and risk-taking drive growth and improve living standards. In state-controlled economies, central planning often stifles productivity.
+          Wealth creation requires investment and risk. If Able hoarded his fish, the island’s economy would stagnate.
+          By lending them, he increases productivity and collective wealth.
         </p>
+        <div class="example">
+          <h3>Real-life Example</h3>
+          <p>
+            <strong>Capitalism vs. State-Controlled Economies:</strong> In capitalist economies, innovation and
+            risk-taking drive growth and improve living standards. In state-controlled economies, central planning often
+            stifles productivity.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </div>
