@@ -1,43 +1,43 @@
 [
       {
         "id": 1,
-        "sentence": "The collapse of the Fish Reserve Notes in Sinopia can be compared to the situation where a country __________ its currency beyond sustainable levels.",
-        "Answer": "over-issues"
+        "question": "The collapse of the Fish Reserve Notes in Sinopia can be compared to the situation where a country __________ its currency beyond sustainable levels.",
+        "answer": "over-issues"
       },
       {
         "id": 2,
-        "sentence": "Germany’s hyperinflation in the 1920s was largely caused by the country printing __________ to pay off war reparations.",
-        "Answer": "money"
+        "question": "Germany’s hyperinflation in the 1920s was largely caused by the country printing __________ to pay off war reparations.",
+        "answer": "money"
       },
       {
         "id": 3,
-        "sentence": "Zimbabwe faced __________ in the 2000s due to excessive money printing by the government.",
-        "Answer": "hyperinflation"
+        "question": "Zimbabwe faced __________ in the 2000s due to excessive money printing by the government.",
+        "answer": "hyperinflation"
       },
       {
         "id": 4,
-        "sentence": "Argentina's recurring inflation problems were partly caused by __________ spending and printing money to cover fiscal deficits.",
-        "Answer": "government"
+        "question": "Argentina's recurring inflation problems were partly caused by __________ spending and printing money to cover fiscal deficits.",
+        "answer": "government"
       },
       {
         "id": 5,
-        "sentence": "Venezuela's economic collapse in the 2010s saw an increase in __________, with wealthy citizens and investors moving their wealth abroad.",
-        "Answer": "capital flight"
+        "question": "Venezuela's economic collapse in the 2010s saw an increase in __________, with wealthy citizens and investors moving their wealth abroad.",
+        "answer": "capital flight"
       },
       {
         "id": 6,
-        "sentence": "The U.S. faced a period of __________ in the 1970s, where inflation was high, and growth was stagnant.",
-        "Answer": "stagflation"
+        "question": "The U.S. faced a period of __________ in the 1970s, where inflation was high, and growth was stagnant.",
+        "answer": "stagflation"
       },
       {
         "id": 7,
-        "sentence": "The process of asset stripping in Russia during the 1990s resulted from __________, where state-owned enterprises were sold off cheaply.",
-        "Answer": "privatization"
+        "question": "The process of asset stripping in Russia during the 1990s resulted from __________, where state-owned enterprises were sold off cheaply.",
+        "answer": "privatization"
       },
       {
         "id": 8,
-        "sentence": "The U.S. Great Depression was triggered by a __________ and a banking crisis.",
-        "Answer": "stock market crash"
+        "question": "The U.S. Great Depression was triggered by a __________ and a banking crisis.",
+        "answer": "stock market crash"
       }
     ]
 

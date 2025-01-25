@@ -15,7 +15,7 @@
     <!-- Other Buttons -->
     <button mat-button [routerLink]="'/quiz/' + selectedLessonId">Quiz</button>
     <button mat-button [routerLink]="['/clozeTests', selectedLessonId]">Cloze Tests</button>
-    <button mat-button>True And False</button>
+    <button mat-button [routerLink]="['/trueFalse', selectedLessonId]">True And False</button>
     <button mat-button>Single Questions Answers</button>
     <button mat-button>Comprehernsive Questions Answers</button>
   </div>

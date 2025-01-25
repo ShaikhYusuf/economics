@@ -1,0 +1,32 @@
+<div class="container">
+    <!-- Loop over True/False questions -->
+    <mat-card *ngFor="let eachQuestion of questions" class="question-card">
+      <p>
+        <span>{{ eachQuestion.question }}</span>
+  
+        <!-- True/False Selection -->
+        <mat-button-toggle-group [(ngModel)]="selectedAnswer[eachQuestion.id]" aria-label="Select your answer">
+          <mat-button-toggle value="true">True</mat-button-toggle>
+          <mat-button-toggle value="false">False</mat-button-toggle>
+        </mat-button-toggle-group>
+      </p>
+  
+      <!-- Show answer status (correct, incorrect, empty) -->
+      <div *ngIf="answerStatus[eachQuestion.id]" [ngClass]="{
+        'correct': answerStatus[eachQuestion.id] === 'correct',
+        'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
+        'empty': answerStatus[eachQuestion.id] === 'empty'
+      }">
+        <span *ngIf="answerStatus[eachQuestion.id] === 'correct'">Correct</span>
+        <span *ngIf="answerStatus[eachQuestion.id] === 'incorrect'">Incorrect</span>
+        <span *ngIf="answerStatus[eachQuestion.id] === 'empty'">Please answer this question!</span>
+      </div>
+    </mat-card>
+  
+    <!-- Display general message if any answer is empty -->
+    <div *ngIf="message" class="popup-message">{{ message }}</div>
+  
+    <!-- Submit button -->
+    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  </div>
+  

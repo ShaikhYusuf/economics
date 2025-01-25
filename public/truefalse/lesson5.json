@@ -1,53 +1,53 @@
 [
     {
       "id": 1,
-      "statement": "Economic growth is primarily driven by consumption and spending.",
-      "Answer": "False"
+      "question": "Economic growth is primarily driven by consumption and spending.",
+      "answer": "False"
     },
     {
       "id": 2,
-      "statement": "Collaboration between businesses reduces innovation.",
-      "Answer": "False"
+      "question": "Collaboration between businesses reduces innovation.",
+      "answer": "False"
     },
     {
       "id": 3,
-      "statement": "Savings are a critical foundation for economic growth.",
-      "Answer": "True"
+      "question": "Savings are a critical foundation for economic growth.",
+      "answer": "True"
     },
     {
       "id": 4,
-      "statement": "Over-reliance on borrowing can destabilize an economy.",
-      "Answer": "True"
+      "question": "Over-reliance on borrowing can destabilize an economy.",
+      "answer": "True"
     },
     {
       "id": 5,
-      "statement": "Japan’s recovery after the 2011 earthquake was hindered by a lack of savings.",
-      "Answer": "False"
+      "question": "Japan’s recovery after the 2011 earthquake was hindered by a lack of savings.",
+      "answer": "False"
     },
     {
       "id": 6,
-      "statement": "High savings rates fuel industrial development and resilience.",
-      "Answer": "True"
+      "question": "High savings rates fuel industrial development and resilience.",
+      "answer": "True"
     },
     {
       "id": 7,
-      "statement": "The U.S. economic boom post-WWII was fueled by excessive borrowing.",
-      "Answer": "False"
+      "question": "The U.S. economic boom post-WWII was fueled by excessive borrowing.",
+      "answer": "False"
     },
     {
       "id": 8,
-      "statement": "Production, not spending, creates real economic value.",
-      "Answer": "True"
+      "question": "Production, not spending, creates real economic value.",
+      "answer": "True"
     },
     {
       "id": 9,
-      "statement": "Excessive consumption without savings can create long-term financial instability.",
-      "Answer": "True"
+      "question": "Excessive consumption without savings can create long-term financial instability.",
+      "answer": "True"
     },
     {
       "id": 10,
-      "statement": "Joint ventures between businesses can reduce risk and encourage innovation.",
-      "Answer": "True"
+      "question": "Joint ventures between businesses can reduce risk and encourage innovation.",
+      "answer": "True"
     }
   ]
   
