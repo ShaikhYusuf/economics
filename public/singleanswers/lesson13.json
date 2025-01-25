@@ -2,76 +2,51 @@
     {
       "id": 1,
       "question": "What significant policy did the U.S. government adopt in 1971 that is similar to Usonia’s actions?",
-      "answer": "The U.S. government abandoned the gold standard in 1971."
+      "answer": "The U.S. government abandoned the gold standard in 1971"
     },
     {
       "id": 2,
       "question": "What economic issue did Zimbabwe face that mirrors Usonia’s situation?",
-      "answer": "Hyperinflation due to an oversupply of currency."
+      "answer": "Hyperinflation due to an oversupply of currency"
     },
     {
       "id": 3,
       "question": "What is the importance of the U.S. dollar in global economics?",
-      "answer": "It is the world's reserve currency, allowing the U.S. to run trade deficits."
+      "answer": "It is the world's reserve currency, allowing the U.S. to run trade deficits"
     },
     {
       "id": 4,
       "question": "How did Roughy Redfish’s fiscal policy contribute to Usonia’s crisis?",
-      "answer": "By cutting taxes without reducing government spending, creating long-term fiscal instability."
+      "answer": "By cutting taxes without reducing government spending, creating long-term fiscal instability"
     },
     {
       "id": 5,
       "question": "What was a key reason for the collapse of the Fish Reserve Notes in Usonia?",
-      "answer": "A loss of confidence in the currency due to its detachment from a tangible backing."
-    },
-    {
-      "id": 1,
-      "question": "What significant policy did the U.S. government adopt in 1971 that is similar to Usonia’s actions?",
-      "answer": "The U.S. government abandoned the gold standard in 1971."
-    },
-    {
-      "id": 2,
-      "question": "What economic issue did Zimbabwe face that mirrors Usonia’s situation?",
-      "answer": "Hyperinflation due to an oversupply of currency."
-    },
-    {
-      "id": 3,
-      "question": "What is the importance of the U.S. dollar in global economics?",
-      "answer": "It is the world's reserve currency, allowing the U.S. to run trade deficits."
-    },
-    {
-      "id": 4,
-      "question": "How did Roughy Redfish’s fiscal policy contribute to Usonia’s crisis?",
-      "answer": "By cutting taxes without reducing government spending, creating long-term fiscal instability."
-    },
-    {
-      "id": 5,
-      "question": "What was a key reason for the collapse of the Fish Reserve Notes in Usonia?",
-      "answer": "A loss of confidence in the currency due to its detachment from a tangible backing."
+      "answer": "A loss of confidence in the currency due to its detachment from a tangible backing"
     },
     {
       "id": 6,
-      "question": "What was the role of central banks in triggering the 2008 financial crisis?",
-      "answer": "Central banks kept interest rates too low, encouraging excessive borrowing."
+      "question": "What significant policy did the U.S. government adopt in 1971 that is similar to Usonia’s actions?",
+      "answer": "The U.S. government abandoned the gold standard in 1971"
     },
     {
       "id": 7,
-      "question": "What is the connection between excessive government borrowing and inflation?",
-      "answer": "Excessive borrowing can lead to inflation by increasing the money supply without an increase in goods and services."
+      "question": "What economic issue did Zimbabwe face that mirrors Usonia’s situation?",
+      "answer": "Hyperinflation due to an oversupply of currency"
     },
     {
       "id": 8,
-      "question": "Why is diversification important in preventing financial crises?",
-      "answer": "Diversification spreads risk and prevents the collapse of an economy when one sector fails."
+      "question": "What is the importance of the U.S. dollar in global economics?",
+      "answer": "It is the world's reserve currency, allowing the U.S. to run trade deficits"
     },
     {
       "id": 9,
-      "question": "What impact does excessive government regulation have on businesses?",
-      "answer": "Excessive regulation can stifle innovation and reduce economic efficiency."
+      "question": "How did Roughy Redfish’s fiscal policy contribute to Usonia’s crisis?",
+      "answer": "By cutting taxes without reducing government spending, creating long-term fiscal instability"
     },
     {
       "id": 10,
-      "question": "What does the term ‘fiat currency’ mean?",
-      "answer": "Fiat currency is money that has value because a government says it does, not because it is backed by a commodity like gold."
+      "question": "What was a key reason for the collapse of the Fish Reserve Notes in Usonia?",
+      "answer": "A loss of confidence in the currency due to its detachment from a tangible backing"
     }
-  ]
+]

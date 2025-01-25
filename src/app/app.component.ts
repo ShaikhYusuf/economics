@@ -13,15 +13,15 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'projmgmt';
+  title = 'eco';
   isExplanationMenuActive = false; // Tracks if the explanation dropdown is active
   selectedLessonId: string = '1'; // Set the selected lesson dynamically
 
   constructor(private router: Router) {}
   menuItems = [
     {name: 'introduction', url: 'intro'},
-    { name: 'Lesson 1', url: 'les1', clozeTest: 'les1' },
-    { name: 'Lesson 2', url: 'les2', clozeTest: 'les2'  },
+    { name: 'Lesson 1', url: 'les1' },
+    { name: 'Lesson 2', url: 'les2' },
     { name: 'Lesson 3', url: 'les3' },
     { name: 'Lesson 4', url: 'les4' },
     { name: 'Lesson 5', url: 'les5' },

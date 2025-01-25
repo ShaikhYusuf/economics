@@ -1,0 +1,22 @@
+<div class="container">
+    <mat-card *ngFor="let eachQuestion of questions" class="question-card">
+      <div class="red-con">
+        <div>{{ eachQuestion.question }}</div>
+  
+        <!-- Render textarea for comprehensive answers -->
+        <textarea
+          [(ngModel)]="selectedAnswer[eachQuestion.id]"
+          placeholder="Type your comprehensive answer"
+          class="input-field"
+          [ngClass]="{
+            'correct': answerStatus[eachQuestion.id] === 'correct',
+            'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
+            'empty': answerStatus[eachQuestion.id] === 'empty'
+          }"
+        ></textarea>
+      </div>
+    </mat-card>
+  
+    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  </div>
+  

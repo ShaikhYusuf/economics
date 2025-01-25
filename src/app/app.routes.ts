@@ -20,6 +20,9 @@ import { Lesson17Component } from './lesson17/lesson17.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { ClozeTestComponent } from './cloze-test/cloze-test.component';
 import { TrueFalseComponent } from './true-false/true-false.component';
+import { SingleLineAnswerComponent } from './single-line/single-line.component';
+import { ComprehernsiveComponent } from './comprehernsive/comprehernsive.component';
+
 
 
 export const routes: Routes = [
@@ -44,6 +47,9 @@ export const routes: Routes = [
   {path: 'quiz/:lessonId', component: QuizComponent},
   {path: 'clozeTests/:lessonId', component: ClozeTestComponent },
   {path: 'trueFalse/:lessonId', component: TrueFalseComponent},
+  {path: 'singleLine/:lessonId',component: SingleLineAnswerComponent},
+  {path: 'comprehernsive/:lessonId', component: ComprehernsiveComponent}
+  
 
   //Test ke sare component ko route karna hai....!!!
 
