@@ -18,6 +18,8 @@ import { Lesson15Component } from './lesson15/lesson15.component';
 import { Lesson16Component } from './lesson16/lesson16.component';
 import { Lesson17Component } from './lesson17/lesson17.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { ClozeTestComponent } from './cloze-test/cloze-test.component';
+
 
 export const routes: Routes = [
   {path: 'intro', component: IntroComponent},
@@ -38,7 +40,8 @@ export const routes: Routes = [
   {path: 'les15', component: Lesson15Component},
   {path: 'les16', component: Lesson16Component},
   {path: 'les17', component: Lesson17Component},
-  { path: 'quiz/:lessonId', component: QuizComponent },
+  {path: 'quiz/:lessonId', component: QuizComponent},
+  { path: 'clozeTests/:lessonId', component: ClozeTestComponent },
 
   //Test ke sare component ko route karna hai....!!!
 

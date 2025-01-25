@@ -1,0 +1,31 @@
+<div class="container">
+    <mat-card *ngFor="let eachQuestion of questions" class="question-card">
+      <p>
+        <ng-container *ngFor="let part of getParts(eachQuestion.question); let i = index">
+          <!-- Render non-blank parts (text) -->
+          <ng-container *ngIf="!part.includes('_')">
+            <span>{{ part }}</span>
+          </ng-container>
+  
+          <!-- Render input fields for blanks (underscores) -->
+          <ng-container *ngIf="part.includes('_')">
+            <input
+              type="text"
+              [(ngModel)]="selectedAnswer[eachQuestion.id]"
+              [style.width]="(eachQuestion.answer?.length * 1.5) + 'ch'"
+              placeholder="Fill in the blank"
+              [ngClass]="{
+                'correct': answerStatus[eachQuestion.id] === 'correct',
+                'incorrect': answerStatus[eachQuestion.id] === 'incorrect',
+                'empty': answerStatus[eachQuestion.id] === 'empty'
+              }"
+              class="input-field"
+            />
+          </ng-container>
+        </ng-container>
+      </p>
+    </mat-card>
+  
+    <button mat-raised-button color="primary" (click)="onSubmit()">Submit</button>
+  </div>
+  

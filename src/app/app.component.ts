@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterOutlet, RouterModule } from '@angular/router';
+import { RouterOutlet, RouterModule, Router } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-root',
@@ -14,11 +15,13 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   title = 'projmgmt';
   isExplanationMenuActive = false; // Tracks if the explanation dropdown is active
+  selectedLessonId: string = '1'; // Set the selected lesson dynamically
 
+  constructor(private router: Router) {}
   menuItems = [
     {name: 'introduction', url: 'intro'},
-    { name: 'Lesson 1', url: 'les1' },
-    { name: 'Lesson 2', url: 'les2' },
+    { name: 'Lesson 1', url: 'les1', clozeTest: 'les1' },
+    { name: 'Lesson 2', url: 'les2', clozeTest: 'les2'  },
     { name: 'Lesson 3', url: 'les3' },
     { name: 'Lesson 4', url: 'les4' },
     { name: 'Lesson 5', url: 'les5' },
@@ -39,5 +42,11 @@ export class AppComponent {
 
   toggleExplanationMenu(): void {
     this.isExplanationMenuActive = !this.isExplanationMenuActive;
+  }
+
+  selectMenuItem(lessonId: number, itemUrl: string): void {
+    this.selectedLessonId = lessonId.toString();
+    this.router.navigate([itemUrl]); 
+    this.isExplanationMenuActive = false; 
   }
 }

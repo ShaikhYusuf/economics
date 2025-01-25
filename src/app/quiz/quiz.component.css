@@ -1,69 +1,95 @@
-/* General Layout */
+/* Styles for the quiz container */
 .quiz-container {
-    max-width: 100%;
-    margin: auto;
+    max-width: 800px;
+    margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
   }
   
+  /* Title styling */
+  .quiz-container h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for each quiz item */
   .quiz-item {
     margin-bottom: 20px;
   }
   
-  .quiz-item h2 {
-    font-size: 1.5rem;
+  .quiz-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
     margin-bottom: 10px;
   }
   
-  .mat-list-item {
+  /* Styles for the options */
+  .quiz-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quiz-item li {
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .quiz-item li:hover {
+    background-color: #f0f8ff;
+    border-color: #007bff;
+  }
+  
+  /* Highlighting selected option */
+  .quiz-item li.highlight {
+    background-color: #cce5ff;
+    border-color: #0056b3;
+  }
+  
+  /* Correct and incorrect answers */
+  .quiz-item li.correct {
+    background-color: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+  }
+  
+  .quiz-item li.incorrect {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+  }
+  
+  /* Submit button styling */
+  button {
+    display: block;
+    width: 100%;
     padding: 10px;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s;
-  }
-  
-  .mat-list-item:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .highlight {
-    background-color: #ffeb3b;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .correct {
-    background-color: #c8e6c9;
-  }
-  
-  .incorrect {
-    background-color: #ffcdd2;
-  }
-  
-  .button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  .custom-button {
-    background-color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
     color: #fff;
-    padding: 10px 20px;
-    border-radius: 4px;
-    font-size: 1rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s ease;
   }
   
-  .custom-button:hover {
+  button:hover {
     background-color: #0056b3;
   }
   
-  .custom-button:disabled {
+  button:disabled {
     background-color: #ccc;
     cursor: not-allowed;
   }
